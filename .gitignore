@@ -1,0 +1,27 @@
+# Python specific files
+*.pyc
+*.pyo
+
+# Generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.patch
+*.diff
+*.empty
+*.orig
+.venv
+.coverage
+.pip
+coverage.xml
+htmlcov
+nosetests_*.xml
+tags
+
+# CSS/SCSS Specific
+*.css.map
+
+# Git-IWS Specific
+.gitconfig

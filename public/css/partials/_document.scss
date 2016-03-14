@@ -1,0 +1,24 @@
+.document__frame {
+    float: left;
+    width: 80%;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6em 0;
+    box-shadow: inset -1px 0px 3px #ddd;
+}
+
+.document {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px #ddd;
+
+    // Document Settings
+    width: 8.5in;
+    height: 11in;
+
+    font-size: 12pt;
+    line-height: 28pt;
+    padding: 1in;
+}

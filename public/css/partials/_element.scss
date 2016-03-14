@@ -1,0 +1,30 @@
+.element {
+    background: #fafafa;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: inset 1px 1px 3px #fff, 1px 1px 3px #eee;
+    display: inline-block;
+    margin-bottom: 7%;
+    padding: 1em 1em 0.5em 1em;
+    text-align: center;
+    width: 46.5%;
+    cursor: grab;
+    cursor: -webkit-grab;
+
+    &:nth-child(even) {
+        margin-left: 7%;
+    }
+
+    i {
+        font-size: 2.3em;
+        color: #888;
+    }
+}
+
+.element__name {
+    display: block;
+    font-size: 0.8em;
+    margin-top: .6em;
+    border-top: 1px solid #ddd;
+    padding-top: .5em;
+}
