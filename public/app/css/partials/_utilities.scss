@@ -1,0 +1,192 @@
+// ========================================================
+// Spacing utility classes
+// Taken from Basscss framework
+//
+// m   Margin
+// p   Padding
+// t   Top
+// r   Right
+// b   Bottom
+// l   Left
+// x   X-axis (left and right)
+// y   Y-axis (top and bottom)
+// n   Negative (margin only)
+// 0   0 reset
+// 1   $space1 (default .5rem)
+// 2   $space2 (default 1rem)
+// 3   $space3 (default 2rem)
+// 4   $space4 (default 4rem)
+// ========================================================
+
+$space1:    .25rem !important;
+$space1-px: 4px !important;
+
+$space2:    .5rem !important;
+$space2-px: 8px !important;
+
+$space3:    1rem !important;
+$space3-px: 16px !important;
+
+$space4:    2rem !important;
+$space4-px: 32px !important;
+
+$space5:    4rem !important;
+$space5-px: 64px !important;
+
+// Margins
+
+// Change or reset default margins using the white space scale.
+// Margin auto is used to horizontally center block-level elements with a set width.
+
+.m0  { margin:        0 !important; }
+.mt0 { margin-top:    0 !important; }
+.mr0 { margin-right:  0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.ml0 { margin-left:   0 !important; }
+
+// PX fallback for older IE
+
+.m1  { margin:        $space1-px; }
+.mt1 { margin-top:    $space1-px; }
+.mr1 { margin-right:  $space1-px; }
+.mb1 { margin-bottom: $space1-px; }
+.ml1 { margin-left:   $space1-px; }
+
+.m2  { margin:        $space2-px; }
+.mt2 { margin-top:    $space2-px; }
+.mr2 { margin-right:  $space2-px; }
+.mb2 { margin-bottom: $space2-px; }
+.ml2 { margin-left:   $space2-px; }
+
+.m3  { margin:        $space3-px; }
+.mt3 { margin-top:    $space3-px; }
+.mr3 { margin-right:  $space3-px; }
+.mb3 { margin-bottom: $space3-px; }
+.ml3 { margin-left:   $space3-px; }
+
+.m4  { margin:        $space4-px; }
+.mt4 { margin-top:    $space4-px; }
+.mr4 { margin-right:  $space4-px; }
+.mb4 { margin-bottom: $space4-px; }
+.ml4 { margin-left:   $space4-px; }
+
+.m5  { margin:        $space5-px; }
+.mt5 { margin-top:    $space5-px; }
+.mr5 { margin-right:  $space5-px; }
+.mb5 { margin-bottom: $space5-px; }
+.ml5 { margin-left:   $space5-px; }
+
+.mxn1 { margin-left: $space1-px; margin-right: $space1-px; }
+.mxn2 { margin-left: $space2-px; margin-right: $space2-px; }
+.mxn3 { margin-left: $space3-px; margin-right: $space3-px; }
+.mxn4 { margin-left: $space4-px; margin-right: $space4-px; }
+.mxn5 { margin-left: $space5-px; margin-right: $space5-px; }
+
+// End fallback
+
+.m1  { margin:        $space1; }
+.mt1 { margin-top:    $space1; }
+.mr1 { margin-right:  $space1; }
+.mb1 { margin-bottom: $space1; }
+.ml1 { margin-left:   $space1; }
+
+.m2  { margin:        $space2; }
+.mt2 { margin-top:    $space2; }
+.mr2 { margin-right:  $space2; }
+.mb2 { margin-bottom: $space2; }
+.ml2 { margin-left:   $space2; }
+
+.m3  { margin:        $space3; }
+.mt3 { margin-top:    $space3; }
+.mr3 { margin-right:  $space3; }
+.mb3 { margin-bottom: $space3; }
+.ml3 { margin-left:   $space3; }
+
+.m4  { margin:        $space4; }
+.mt4 { margin-top:    $space4; }
+.mr4 { margin-right:  $space4; }
+.mb4 { margin-bottom: $space4; }
+.ml4 { margin-left:   $space4; }
+
+.m5  { margin:        $space5; }
+.mt5 { margin-top:    $space5; }
+.mr5 { margin-right:  $space5; }
+.mb5 { margin-bottom: $space5; }
+.ml5 { margin-left:   $space5; }
+
+.mxn1 { margin-left: $space1; margin-right: $space1; }
+.mxn2 { margin-left: $space2; margin-right: $space2; }
+.mxn3 { margin-left: $space3; margin-right: $space3; }
+.mxn4 { margin-left: $space4; margin-right: $space4; }
+.mxn5 { margin-left: $space5; margin-right: $space5; }
+
+.mx-auto { margin-left: auto !important; margin-right: auto !important; }
+
+// Padding
+
+// Padding utilities are only available in symmetrical orientations.
+// This is to normalize the spacing used around elements and maintain a consistent visual rhythm.
+
+.p0  { padding: 0 !important; }
+
+// PX fallback for older IE
+
+.p1  { padding:       $space1-px; }
+.py1 { padding-top:   $space1-px; padding-bottom: $space1-px; }
+.px1 { padding-left:  $space1-px; padding-right:  $space1-px; }
+
+.p2  { padding:       $space2-px; }
+.py2 { padding-top:   $space2-px; padding-bottom: $space2-px; }
+.px2 { padding-left:  $space2-px; padding-right:  $space2-px; }
+
+.p3  { padding:       $space3-px; }
+.py3 { padding-top:   $space3-px; padding-bottom: $space3-px; }
+.px3 { padding-left:  $space3-px; padding-right:  $space3-px; }
+
+.p4  { padding:       $space4-px; }
+.py4 { padding-top:   $space4-px; padding-bottom: $space4-px; }
+.px4 { padding-left:  $space4-px; padding-right:  $space4-px; }
+
+.p5  { padding:       $space5-px; }
+.py5 { padding-top:   $space5-px; padding-bottom: $space5-px; }
+.px5 { padding-left:  $space5-px; padding-right:  $space5-px; }
+// End fallback
+
+.p1  { padding:       $space1; }
+.py1 { padding-top:   $space1; padding-bottom: $space1; }
+.px1 { padding-left:  $space1; padding-right:  $space1; }
+
+.p2  { padding:       $space2; }
+.py2 { padding-top:   $space2; padding-bottom: $space2; }
+.px2 { padding-left:  $space2; padding-right:  $space2; }
+
+.p3  { padding:       $space3; }
+.py3 { padding-top:   $space3; padding-bottom: $space3; }
+.px3 { padding-left:  $space3; padding-right:  $space3; }
+
+.p4  { padding:       $space4; }
+.py4 { padding-top:   $space4; padding-bottom: $space4; }
+.px4 { padding-left:  $space4; padding-right:  $space4; }
+
+.p5  { padding:       $space5; }
+.py5 { padding-top:   $space5; padding-bottom: $space5; }
+.px5 { padding-left:  $space5; padding-right:  $space5; }
+
+// ========================================================
+// Font utility classes
+// m   Font
+// w   Weight
+// ========================================================
+
+// This should not be extended to font-sizes.
+// Use bootstrap's .h1-.h6 classes to maintain size consistency
+
+$weight1: 300 !important;
+$weight2: 400 !important;
+$weight3: 500 !important;
+$weight4: 700 !important;
+
+.fw1 { font-weight: $weight1; }
+.fw2 { font-weight: $weight2; }
+.fw3 { font-weight: $weight3; }
+.fw4 { font-weight: $weight4; }
